@@ -4,7 +4,7 @@ const RozkladParserService = require('./services/rozkladParserService');
 const rozkladParserService = new RozkladParserService();
 
 const MysqlClient = require('./services/mysqlClient');
-const mysqlClient = new MysqlClient('localhost', 3306, 'esc_d1', 'secret', 'rozklad');
+const mysqlClient = new MysqlClient('sr.kpi.ua', 3306, 'studradakpiua', 'qZCxVTqg#d2fH', 'studradakpiua');
 
 main()
 
