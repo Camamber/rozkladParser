@@ -62,7 +62,7 @@ class Strategy1 {
         )
         // .then(rows => rows.filter(row => !row.schedule_id));
 
-        const SEMESTER = 1;
+        const SEMESTER = 2;
         const SIZE = 10
         for (let i = 0; i < groups.length; i += SIZE) {
             const chunk = groups.slice(i, i + SIZE);

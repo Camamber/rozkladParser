@@ -1,7 +1,6 @@
 const request = require('request-promise');
 const HTMLParser = require('fast-html-parser');
-const PROXY = 'http://lum-customer-c_275eb0df-zone-static:ewll4pzkeqe7@zproxy.lum-superproxy.io:22225';
-// const PROXY = 'http://88.99.188.238:5577';
+const PROXY = null;
 
 class RozkladParserService {
 
